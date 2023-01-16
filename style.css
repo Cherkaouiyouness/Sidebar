@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+    position: relative;
+    padding: 12px;
+    width: 320px;
+    height: 100vh;
+    background-color: #1B2130;
+}
+.sidebar .icon{
+    width: 320px;
+    height: 100px;
+    font-size: 1.6em;
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+.sidebar .icon span i{
+    font-size: 1.6em;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.sidebar .navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar .navbar ul li{
+    font-size: 1.2em;
+    width: 300px;
+    height: 50px;
+    list-style-type: none;
+}
+.sidebar .navbar ul li i{
+    padding: 12px;
+}
+.sidebar .navbar ul li a{
+    text-decoration: none;
+    margin-left: 12px;
+    color: gray;
+    padding: 12px;
+}
+.sidebar .navbar ul li:hover{
+    background-color:#0080FF ;
+    width: 260px;
+    height: 50px;
+    margin: auto;
+    border-radius: 12px;
+}
+.sidebar .navbar ul li:hover a{
+    color: aliceblue;
+}
+ .sidebar input{
+    padding: 12px;
+    margin: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #1F2431;
+    color: gray;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif , 'fontawesome';  
+} 
+.sidebar input::placeholder{
+    color: white;
+}
+
+
+
+/* #####minisidebar#### */
+
+
+body{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+
+.mini-sidebar{
+    position: relative;
+    padding: 4px;
+    width: 100px;
+    height: 100vh;
+    background-color: #1B2130;
+}
+
+.mini-sidebar .navbar ul li{
+    font-size: 1.2em;
+    width: 82px;
+    height: 50px;
+    list-style-type: none;
+}
+
+.mini-sidebar li i{
+    padding: 12px;
+}
+.mini-sidebar .icon{
+    width: 100px;
+    height: 100px;
+    font-size: 1.6em;
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+
+.mini-sidebar .icon span i{
+    font-size: 1.6em;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.mini-sidebar .navbar ul li i{
+    text-decoration: none;
+     margin-left: 12px; 
+    color: whitesmoke;
+    padding: 12px;
+}
+
+
+.mini-sidebar .navbar ul li:hover{
+    background-color:#0080FF ;
+    border-radius: 12px;
+}
+.mini-sidebar .navbar ul li:hover {
+    color: aliceblue;
+}
+
+ .mini-sidebar input{
+    padding: 5px;
+    margin: 12px 10px; 
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #1F2431;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif , 'fontawesome'; 
+} 
+
+.mini-sidebar input::placeholder{
+    color: white;
+}
+
+
+.afficher{
+    display: none;
+}
+
